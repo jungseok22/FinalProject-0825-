@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>드라마 탬플릿</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
+
+    <style>
+        .drama {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+        }
+
+        #root {
+            width: 100%;
+        }
+
+        #top {
+            padding: 15px;
+            background-color: #111111;
+            color: #9a9a9a;
+            font-size: 15px;
+            font-weight: 400;
+            word-spacing: -1px;
+            letter-spacing: -1px;
+            
+        }
+
+        #menu {
+            position: absolute;
+            width: 100%;
+            font-size: 37px;
+            background-color: black;
+            color: #2d2d2d;
+            font-weight: 700;
+            z-index: 2;
+            padding-top: 3px;
+            word-spacing: 50px;
+            padding-bottom: 3px;
+        }
+        
+        #menu_main a {
+            text-decoration: none;
+            color: inherit; 
+        }
+
+        #menu_main:hover {
+            cursor: pointer;
+            color: #bababa;
+        }
+
+        #drama_top {
+            position: relative;
+            top: 60px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .drama_top_image {
+            width: 800px;
+            height: auto;
+            filter: blur(2px);
+            
+        }
+
+        #drama_div_table {
+            position: absolute;
+            top: 330px;
+            left: 590px;
+        }
+
+        #drama_div_table_subject {
+            display: table-cell;
+            vertical-align: bottom;
+            word-spacing: 2px;
+        }
+
+        .drama_ottlogo {
+            padding-top: 6px;
+            width: 70px;
+        }
+
+        #drama_div_table_img {
+            width: 725px;
+        }
+
+        .drama_table_image {
+            width: 125px;    
+            filter: drop-shadow(10px 10px 10px black);
+        }
+
+        #drama_title {
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        #drama_title_subtitle {
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: -1px;
+        }
+
+        .drama_title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .drama_data_content {
+            line-height: 10%;
+            font-size: 15px;
+        }
+
+        #drama_data {
+            position: relative;
+            text-align: center;
+            top: 270px
+        }
+
+        #drama_trailer {
+            position: relative;
+            text-align: center;
+            top: 320px;
+            line-height: 2;
+        }
+
+        #drama_character {
+            position: relative;
+            text-align: center;
+            top: 390px;
+            line-height: 2;
+        }
+
+
+    </style>
+</head>
+<body class="drama">
+<div id="root" class="drama">
+    <div id="top" class="drama">
+        <img src=./coupangplay.png width="110px"><img>
+        &nbsp;&nbsp;
+        <span>그렇게 사랑이 나에게도 왔...다...☆ <복학생 : 학점은 A지만 사랑은 F입니다> </span>  
+    </div>
+
+    <div id="menu" class="drama">
+        <span id="menu_main">
+            <a href="../../drama_index.html">메인</a>
+        </span>
+        <span id="menu_main">
+            <a href="../../drama_new/drama_newdrama.html">예정작</a>
+        </span>
+        <span id="menu_main">
+            한국드라마
+        </span>
+        <span id="menu_main">
+            해외드라마
+        </span>
+    </div>
+
+    <div id="drama_top" class="drama">
+        <img src="./bigmouth_top.jpg" class="drama_top_image"></img>
+    </div>
+
+    <div id="drama_div_table" class="drama">
+        <table id="drama_div_table_img" class="drama" border="0">
+            <th width="50%">
+                <img src="./bigmouth_poster.jpg" class="drama_table_image">
+            </th>
+            <th width="50%" id="drama_div_table_subject">
+                <span id="drama_title">빅마우스</span><br>
+                <span id="drama_title_subtitle">Big Mouth · 2022</span><br>
+                <img src="mbc.jpg" class="drama_ottlogo"></img>
+                <img src="wavve.jpg" class="drama_ottlogo"></img>
+                <img src="disneyplus.jpg" class="drama_ottlogo"></img>
+            </th>
+        </table>
+    </div>
+
+    <div id="drama_data" class="drama">
+
+        <span class="drama_title">작품정보</span><br>
+        <span class="drama_data_content">승률 10%의 생계형 변호사가 우연히 맡게 된 살인 사건에 휘말려 <br>
+        하루아침에 희대의 천재 사기꾼 '빅마우스(Big Mouse)'가 되어 살아남기 위해,<br>
+        가족을 지키기 위해 거대한 음모로 얼룩진 특권층의 민낯을 파헤쳐 가는 이야기</span>
+
+    </div>
+
+    <div id="drama_trailer" class="drama">
+        <span class="drama_title">예고편</span><br>
+        <iframe width="725" height="430" src="https://www.youtube.com/embed/kTDpVopGJJk" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="drama_character" class="drama">
+
+        <span class="drama_title">등장인물</span><br>
+        <img src="./bigmouth_character.jpg" width="400px">
+
+    </div>
+
+</div>
+
+</body>
+</html>

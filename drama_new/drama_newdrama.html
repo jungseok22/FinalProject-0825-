@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신작 드라마</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR" rel="stylesheet">
+
+    <style>
+        .drama {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+        }
+
+        #root {
+            width: 100%;
+        }
+
+        #top {
+            padding: 15px;
+            background-color: #111111;
+            color: #9a9a9a;
+            font-size: 15px;
+            font-weight: 400;
+            word-spacing: -1px;
+            letter-spacing: -1px;
+            
+        }
+
+        #menu {
+            position: absolute;
+            width: 100%;
+            font-size: 37px;
+            background-color: black;
+            color: #2d2d2d;
+            font-weight: 700;
+            z-index: 2;
+            padding-top: 3px;
+            word-spacing: 50px;
+            padding-bottom: 3px;
+        }
+
+        #menu_main a {
+            text-decoration: none;
+            color: inherit; 
+        }
+        
+        #menu_main:hover {
+            cursor: pointer;
+            color: #bababa;
+        }
+        
+        #drama_top {
+            position: relative;
+            top: 60px;
+            text-align: center;
+            background-color: black;
+        }
+
+        .drama_top_image {
+            width: 1800px;
+            height: auto;
+            filter: blur(10px);
+            
+        }
+
+        #drama_div_table {
+            position: absolute;
+            top: 220px;
+            left: 550px;
+        }
+
+        #drama_div_table_img {
+            width: 800px;
+            height: 150px;
+        }
+
+        #drama_div_table_subject {
+            word-spacing: 2px;
+        }
+
+        .drama_table_image {
+            width: 300px;
+            background-color: #111111;
+            filter: drop-shadow(10px 10px 10px rgb(95, 95, 95));
+        }
+
+        #drama_div_table_title {
+            font-size: 36px;
+            font-weight: 700;
+            background-color: black;
+            color: white;
+            letter-spacing: 2.5px;
+        }
+
+        #drama_div_table_subtitle {
+            font-size: 28px;
+            font-weight: 500;
+            background-color: black;
+            color: white;
+            letter-spacing: 2.5px;
+        }
+
+        #drama_new_calendar {
+            position: relative;
+            top: 150px;
+            left: 500px;
+        }
+
+
+    </style>
+</head>
+<body class="drama">
+<div id="root" class="drama">
+    <div id="top" class="drama">
+        <img src=./coupangplay.png width="110px"><img>
+        &nbsp;&nbsp;
+        <span>그렇게 사랑이 나에게도 왔...다...☆ <복학생 : 학점은 A지만 사랑은 F입니다> </span>  
+    </div>
+
+    <div id="menu" class="drama">
+        <span id="menu_main">
+            <a href="../drama_index.html">메인</a>
+        </span>
+        <span id="menu_main">
+            <a href="./drama_newdrama.html">예정작</a>
+        </span>
+        <span id="menu_main">
+            한국드라마
+        </span>
+        <span id="menu_main">
+            해외드라마
+        </span>
+    </div>
+
+    <div id="drama_top" class="drama">
+        <img src="./test.jpg" class="drama_top_image"></img>
+    </div>
+
+    <div id="drama_div_table" class="drama">
+        <table id="drama_div_table_img" class="drama" border="0">
+            <th width="45%">
+                <img src="./logo.png" class="drama_table_image">
+            </th>
+            <th width="55%" id="drama_div_table_subject">
+                <span id="drama_div_table_title">OTT 신작 드라마 캘린더</span><br>
+                <span id="drama_div_table_subtitle">< 9월 ></span><br>
+            </th>
+        </table>
+    </div>
+
+    <div id="drama_new_calendar" class="drama">
+        <table border="0">
+            <th>
+                표? 리스트형태? 작업중입니다
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    
+                </td>
+                <td>
+                    
+                </td>
+                <td>
+                    
+                </td>
+                <td>
+                   
+                </td>
+                <td>
+                  
+                </td>
+                <td>
+                   
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>
+
+</body>
+</html>

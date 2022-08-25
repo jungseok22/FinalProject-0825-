@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box_detailinfo{
+            position: relative;
+            padding-top: 60px;
+        }
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,
+        form,code,fieldset,legend,textarea,p,th,td,input,select,button{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            display: block;
+        }
+        .box_detailinfo .tabmenu_wrap.fixed{
+            position: fixed;
+            z-index: 100;
+            top : 60px;
+            height: 51px;
+            background-color: #ffffff;
+        }
+        .box_detailinfo .tabmenu_wrap{
+            left: 0;
+            right: 0;
+        }
+        .tabmenu_wrap{
+            text-align: center;
+        }
+        ul{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+        h4{
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        .info_desc{
+            padding-top: 48px;
+            font-size: 16px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 상세하단 -->
+<div class="box_detailinfo">
+    <!-- 탭메뉴 -->
+<div class="tabmenu_wrap fixed">
+<strong class="screen_out">탭메뉴</strong>
+<ul class="list_tabmenu" role="tablist" >
+    <li role="presentation" class="on"><!-- 선택시 on 클래스 추가 -->
+        <a href="" class="link_tabmenu" aria-selected="false" role="tab" >
+            <span class="txt_tabmenu">주요정보</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="" class="link_tabmenu" aria-selected="false" role="tab">
+            <span class="txt_tabmenu">출연진</span>
+        </a>
+    </li>
+    <li role="presentation" class="">
+        <a href="" class="link_tabmenu" aria-selected="false" role="tab" >
+            <span class="txt_tabmenu">영상/포토</span>
+        </a>
+    </li>
+
+</ul>
+</div>            
+<div class="contents">
+    <h4 class="screen_out">주요정보</h4>
+<div class="detail_basicinfo">
+<div class="movie_summary">
+    <div class="info_desc" data-tiara-layer="desc">
+        <div class="desc_cont">
+            <b>한순간의 실수도 용납되지 않는 하늘 위, &nbsp;</b><br><b>가장 압도적인 비행이 시작된다!
+        </div>
+        <a href="javascript:" class="link_moredesc">더보기<span class="ico_movie ico_arrow" data-tiara-layer="desc_more" data-tiara-copy="메인_줄거리_더보기"></span></a>
+    </div>
+</div>
+</div>
+<div class="detail_crewinfo" data-tiara-layer="crew">
+    <h5 class="tit_section">출연진</h5>
+    <ul class="list_crewall">
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=199400" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="1">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F24395ce9ff5f91da46b0b1e302e04bc47f04e30e" class="img_thumb" alt="조셉 코신스키">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=199400" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="1">조셉 코신스키</a>
+                            </strong>
+                                <span class="txt_info">감독</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=492" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="2">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Ff7704c8178c3f5acb8ee97a0079b46ab9facef40" class="img_thumb" alt="톰 크루즈">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=492" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="2">톰 크루즈</a>
+                            </strong>
+                                <span class="txt_info">주연</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=185250" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="3">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Fc5c0f0200a69e400759259713ab7d5e68b97ff33" class="img_thumb" alt="마일스 텔러">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=185250" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="3">마일스 텔러</a>
+                            </strong>
+                                <span class="txt_info">주연</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=778" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="4">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Feb408451543fc0c69db506751b040f9b33856a50" class="img_thumb" alt="제니퍼 코넬리">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=778" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="4">제니퍼 코넬리</a>
+                            </strong>
+                                <span class="txt_info">주연</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=780" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="5">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcfile%2F13497810B244BBF3B8" class="img_thumb" alt="발 킬머">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=780" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="5">발 킬머</a>
+                            </strong>
+                                <span class="txt_info">출연</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=408499" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="6">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=408499" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="6">바쉬르 살라후딘</a>
+                            </strong>
+                                <span class="txt_info">출연</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item_crewall">
+                        <a href="/person/main?personId=119825" class="thumb_item" data-tiara-layer="thumb" data-tiara-copy="주요정보_출연진_썸네일" data-tiara-ordnum="7">
+                                <img src="https://img1.daumcdn.net/thumb/C116x168/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F137b5b5a7844de0dfeb61ee2ca4dfca1e0b15054" class="img_thumb" alt="존 햄">
+                        </a>
+                        <div class="thumb_cont">
+                            <strong class="tit_item">
+                                <a href="/person/main?personId=119825" class="link_tit" data-tiara-layer="name" data-tiara-copy="주요정보_출연진_이름" data-tiara-ordnum="7">존 햄</a>
+                            </strong>
+                                <span class="txt_info">출연</span>
+                        </div>
+                    </div>
+                </li>
+    </ul>
+    <a href="/moviedb/crew?movieId=114329" class="link_more" data-tiara-layer="more" data-tiara-copy="주요정보_출연진_더보기">더보기<span class="ico_movie ico_arr"></span></a>
+</div>
+<div class="detail_vodphotoinfo" data-tiara-layer="media">
+<h5 class="tit_section">영상/포토</h5>
+        
+    <ul class="list_vod">
+            <li class="big_size">
+                <div class="item_vodphoto">
+                    <a href="/moviedb/contents?movieId=114329&amp;videoId=69564" class="thumb_img" data-tiara-layer="video" data-tiara-ordnum="1">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S540x258/?fname=https%3A%2F%2Fthumb.kakaocdn.net%2Fdna%2Fkamp%2Fsource%2Frvjr4k7r4t7vlp7a0uht7ocir%2Fthumbs%2Fthumb.jpg%3Fcredential%3DTuMuFGKUIcirOSjFzOpncbomGFEIdZWK%26expires%3D33215708041%26signature%3D5R9HyobiBI9jR0bUjf1PLDPb9%252Fs%253D%26ts%3D1658799241)"></span>
+                    <span class="ico_movie ico_play">영상보기</span>
+                    <span class="screen_out">재생시간 : </span>
+                        <span class="num_playtime">01:42</span>
+                    </a>
+                </div>
+            </li>
+            <li class="big_size">
+                <div class="item_vodphoto">
+                    <a href="/moviedb/contents?movieId=114329&amp;videoId=69463" class="thumb_img" data-tiara-layer="video" data-tiara-ordnum="2">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S540x258/?fname=http%3A%2F%2Fthumb.kakaocdn.net%2Fdna%2Fkamp%2Fsource%2Frve393ljkzkyzagrob6rr9y4f%2Fthumbs%2Fthumb.jpg%3Fcredential%3DTuMuFGKUIcirOSjFzOpncbomGFEIdZWK%26expires%3D33213907409%26signature%3D1pqVxnnDJ2xjkhoY%252Fdire2%252Fp7J8%253D%26ts%3D1656998609)"></span>
+                    <span class="ico_movie ico_play">영상보기</span>
+                    <span class="screen_out">재생시간 : </span>
+                        <span class="num_playtime">00:25</span>
+                    </a>
+                </div>
+            </li>
+    </ul>
+<ul class="list_vodphoto">
+        
+            <li>
+                <div class="item_vodphoto">
+                <a href="#photoId=1472220" class="thumb_img" data-tiara-layer="photo" data-tiara-ordnum="1">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S408x212/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F186b9e81178033a06a5af0261fc356a586f8535a)"></span>
+                    </a>
+                </div>
+            </li>
+        
+            <li>
+                <div class="item_vodphoto">
+                <a href="#photoId=1472221" class="thumb_img" data-tiara-layer="photo" data-tiara-ordnum="2">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S408x212/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2Feecf986b580eeb3b7704d1952f57925c1188d5d6)"></span>
+                    </a>
+                </div>
+            </li>
+        
+            <li>
+                <div class="item_vodphoto">
+                <a href="#photoId=1472222" class="thumb_img" data-tiara-layer="photo" data-tiara-ordnum="3">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S408x212/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F925be59a6371f06382772352df4c965c10a4f840)"></span>
+                    </a>
+                </div>
+            </li>
+        
+                
+            <li>
+                <div class="item_vodphoto">
+                <a href="/moviedb/contents?movieId=114329#photo" class="thumb_img" data-tiara-layer="photo" data-tiara-ordnum="4">
+                    <span class="bg_img" style="background-image:url(https://img1.daumcdn.net/thumb/S408x212/?fname=https%3A%2F%2Ft1.daumcdn.net%2Fmovie%2F1dfe32014b5910ee2565b7eeafa5d2ce31a942bc)"></span>
+                        <span class="txt_num"><span class="inner_txt">+6</span></span>
+                    </a>
+                </div>
+            </li>   
+</ul>
+<a href="/moviedb/contents?movieId=114329" class="link_more" data-tiara-layer="more">더보기<span class="ico_movie ico_arr"></span></a>
+</div>
+</div>    
+</div></div>
+</div>
+</div>
+</body>
+</html>
